@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cérebro em Jogo - +2.000 Atividades</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <section id="inicio" class="tab-content active">
+            <div class="logo-section">
+                <h1 class="logo">Cérebro em<span>Jogo</span></h1>
+                <p class="subtitle">+2.000 Atividades</p>
+            </div>
+            <h2 class="main-title">
+                <span class="yellow">+Diversão</span> 
+                <span class="blue">+Conhecimento</span>=
+            </h2>
+            <h2 class="main-title pink">Aprendizado que Fica pra Sempre!</h2>
+            <button class="cta-button" onclick="navigateToTab('atividades')">
+                Sim, quero as atividades agora!
+            </button>
+        </section>
+
+        <section id="atividades" class="tab-content">
+            <h2>Descubra o Poder das Atividades</h2>
+            <div class="content-area">
+                <p>Com mais de 2.000 atividades, seu aprendizado será divertido e eficaz!</p>
+                <ul>
+                    <li>✓ Atividades para todas as idades</li>
+                    <li>✓ Conteúdo pedagógico de qualidade</li>
+                    <li>✓ Desenvolvimento cognitivo garantido</li>
+                    <li>✓ Material pronto para usar</li>
+                </ul>
+            </div>
+            <button class="cta-button" onclick="navigateToTab('pack')">
+                Escolher meu Pack agora!
+            </button>
+        </section>
+
+        <section id="pack" class="tab-content">
+            <h2>Escolha agora o seu Pack:</h2>
+            <div class="packs-container">
+                <div class="pack-card">
+                    <h3>Pack Básico</h3>
+                    <p class="price">R$ 97,00</p>
+                    <ul>
+                        <li>500 atividades</li>
+                        <li>Acesso imediato</li>
+                        <li>Suporte básico</li>
+                    </ul>
+                </div>
+                <div class="pack-card featured">
+                    <h3>Pack Completo</h3>
+                    <p class="price">R$ 147,00</p>
+                    <ul>
+                        <li>+2.000 atividades</li>
+                        <li>Acesso vitalício</li>
+                        <li>Suporte premium</li>
+                        <li>Bônus exclusivos</li>
+                    </ul>
+                </div>
+                <div class="pack-card">
+                    <h3>Pack Premium</h3>
+                    <p class="price">R$ 197,00</p>
+                    <ul>
+                        <li>+3.000 atividades</li>
+                        <li>Acesso vitalício</li>
+                        <li>Consultoria inclusa</li>
+                        <li>Atualizações grátis</li>
+                    </ul>
+                </div>
+            </div>
+            <button class="cta-button" onclick="navigateToTab('compra')">
+                Acesse agora! Receba no seu WhatsApp, e use ainda Hoje!
+            </button>
+        </section>
+
+        <section id="compra" class="tab-content">
+            <h2>Finalize sua Compra</h2>
+            <div class="checkout-info">
+                <p>🎉 Parabéns por investir no aprendizado!</p>
+                <p>📱 Você receberá o acesso completo via WhatsApp</p>
+                <p>⚡ Use as atividades ainda hoje!</p>
+            </div>
+            <div class="payment-buttons">
+                <button class="payment-button pix">
+                    💳 Pagar com PIX
+                </button>
+                <button class="payment-button card">
+                    💳 Pagar com Cartão
+                </button>
+            </div>
+            <p class="guarantee">✅ Garantia de 7 dias - Satisfação ou seu dinheiro de volta!</p>
+        </section>
+
+        <div class="navigation-dots">
+            <span class="dot active" onclick="navigateToTab('inicio')"></span>
+            <span class="dot" onclick="navigateToTab('atividades')"></span>
+            <span class="dot" onclick="navigateToTab('pack')"></span>
+            <span class="dot" onclick="navigateToTab('compra')"></span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
